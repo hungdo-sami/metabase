@@ -29,6 +29,7 @@ git clone https://github.com/hungdo-sami/metabase.git
 2.2. Cấu hình cài đặt
 Dưới đây là cấu trúc thư mục của Metabase mà chúng ta sẽ sử dụng:
 
+
 /metabase        # Thư mục chính chứa các thành phần của Metabase
 │
 ├── Dockerfile    # File Dockerfile để build image
@@ -36,7 +37,9 @@ Dưới đây là cấu trúc thư mục của Metabase mà chúng ta sẽ sử 
 ├── docker-compose.yml # File cấu hình Docker Compose 
 │
 └── install_docker.sh      # Script cài đặt Docker
+
 Chuyển đến thư mục làm việc.
+
 
 cd metabase
 Nếu đây là lần đầu bạn sử dụng Docker, mình có kèm sẵn trong folder file "install_docker.sh" chứa các script hỗ trợ cài đặt Docker và Docker Compose, để cài đặt bạn sử dụng lệnh sau:
